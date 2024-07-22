@@ -1,0 +1,6 @@
+@VillasWebProject_HostAddress = http://localhost:5134
+
+GET {{VillasWebProject_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

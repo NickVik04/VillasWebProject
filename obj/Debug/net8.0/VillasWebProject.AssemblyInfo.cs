@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VillasWebProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19f4789234ed235b2e1d77392781fdd636d2af38")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b9050880521023e5ef79eb18e2d86248db336c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("VillasWebProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VillasWebProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -82,6 +82,7 @@ namespace VillasWebProject.Controllers
                 return NotFound("Villa Not Found");
             }
             _villaService.VillaDetails.Remove(villa);
+            _villaService.SaveChanges();
             return NoContent();
         }
 
@@ -102,6 +103,7 @@ namespace VillasWebProject.Controllers
             existingVilla.Name = villa.Name;
             existingVilla.occupancy = villa.occupancy;
             existingVilla.sqft = villa.sqft;
+            _villaService.SaveChanges();
 
             return NoContent();
         }
